@@ -10,9 +10,9 @@
             <h1 class="text-4xl font-bold text-green-600 mb-4">Connexion réussie !</h1>
             <p class="text-2xl">Bienvenue, ${user.firstName} ${user.lastName}</p>
             <p class="text-lg mt-2 text-indigo-600">Rôle : ${user.role.name}</p>
-            <a href="login.jsp" class="mt-8 inline-block bg-red-600 text-white px-6 py-3 rounded-lg hover:bg-red-700">
-                Déconnexion
-            </a>
+            <a href="books" class="mt-8 inline-block bg-indigo-600 text-white px-8 py-4 rounded-lg text-xl hover:bg-indigo-700 transform hover:scale-105 transition">
+    			Voir le catalogue des livres
+			</a>
         </div>
     </div>
 </body>

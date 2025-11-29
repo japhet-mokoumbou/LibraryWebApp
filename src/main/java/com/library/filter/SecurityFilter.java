@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
-@WebFilter(urlPatterns = {"*.jsp", "/servlet/*"}, servletNames = {"LoginServlet"})
+@WebFilter(urlPatterns = {"*.jsp", "/servlet/*", "/books"}, servletNames = {"LoginServlet"})
 public class SecurityFilter implements Filter {
 
 	@Override
